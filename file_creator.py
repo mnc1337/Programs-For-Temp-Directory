@@ -7,7 +7,7 @@ See the LICENSE file for details.
 """
 Notification:
 The `tempfile` module can also be used to get the TEMP directory (e.g., via `tempfile.gettempdir()`), 
-and it’s less vulnerable to environment variable changes than using os.environ.
+and it’s less vulnerable to environment variable changes than os.environ.
 """
 
 import os
