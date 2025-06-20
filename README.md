@@ -12,6 +12,7 @@ The additional program is used for creating files in TEMP directory for some tes
 
 ## About project structure:
 
+- archive (7z) (directory): contains an archive and file `hash_sums.txt` with archive hash sums (`IMPORTANT`: archive does not contain it`s directory, so if you check hash sums, check hash sums of this archive);
 - exe (directory): contains executable programs;
 - icons (directory): contains icons for programs;
 - temp_cleaner.py (file): main file - cleans TEMP directory;
